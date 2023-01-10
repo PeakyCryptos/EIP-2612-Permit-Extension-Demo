@@ -6,7 +6,7 @@ To overcome this limitation, EIP-2612 offers a new methodology to circumvent the
 
 # Demo steps
 
-1. Deploy the ERC20 permit contract
+1. Deploy the ERC20 permit contract (preferably remix for ease of interaction)
 
 2. put in src/Main/main.js -> contractAddress state in main component
 
