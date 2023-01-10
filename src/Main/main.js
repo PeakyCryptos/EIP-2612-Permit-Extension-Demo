@@ -90,7 +90,7 @@ class Main extends Component {
 
   async permitHandler() {
     const spender = prompt("Specify Spender(address): ");
-    const value = prompt("Value(wei): ");
+    const value = prompt("Value(tokens): ");
     const nonce = prompt("nonce: ");
     const deadline = prompt("deadline: ");
 
