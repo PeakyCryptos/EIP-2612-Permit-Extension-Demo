@@ -9,10 +9,10 @@ class Main extends Component {
 
     this.state = {
       provider: null,
-      domainName: "MyToken",
+      domainName: "permitDemo",
       domainVersion: "1",
       chainId: 5, // goerli
-      contractAddress: "0x3E18F13c2aC8e5Fa1b6E0ad2e0342eCC25300446", // put your deployed contract instance
+      contractAddress: "", // put your deployed contract instance
       account: null,
       domain: null,
       domainType: [

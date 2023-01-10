@@ -1,12 +1,12 @@
 const hre = require("hardhat");
 
 async function main() {
-  const hello = await hre.ethers.getContractFactory("HelloWorld");
-  const Hello = await hello.deploy();
+  const permitDemo = await hre.ethers.getContractFactory("permitDemo");
+  const PermitDemo = await permitDemo.deploy();
 
-  await Hello.deployed();
+  await PermitDemo.deployed();
 
-  console.log(`Deployed to ${Hello.address}`);
+  console.log(`Deployed to ${PermitDemo.address}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
